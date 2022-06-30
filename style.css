@@ -13,7 +13,7 @@ body {
 body {
   display: grid;
   place-items: center;
-  background: lightblue;
+  background: rgb(27, 192, 233);
 }
 
 h1 {
@@ -21,6 +21,6 @@ h1 {
 }
 
 a {
-  color: black;
+  color: rgb(250, 255, 253);
   text-decoration: none;
 }

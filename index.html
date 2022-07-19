@@ -1,52 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt_BR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Denilson Bernardo - DoWhile Badge 2021</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Denilson Bernardo - DoWhile 2021</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" 
+    rel="stylesheet" 
+  />
 </head>
-
 <body>
   <main>
-    <div class="content">
+    <div class="container">
       <div class="avatar">
-        <img src="images/build.svg" alt="Selo Rocketseat">
-        <img src="https://github.com/dsouloficial.png" alt="Foto pessoal" />
+        <span class="avatar__circular">
+          <img
+            src="images/build.svg"
+            alt="Selo Rocketseat"
+          >
+        </span>
+        <img
+          src="https://github.com/dsouloficial.png"
+          alt="Foto pessoal" 
+          id="UserImage"
+        />
       </div>
-      <h1>Denilson Bernardo</h1>
-      <a href="https://instagram.com/dsoul_oficial">
-        <img src="images/github.svg" alt="ícone github" />
-        dsouloficial</a>
 
-      <p>An instructor focused on helping pople start programming for web</p>
+      <h1 id="userName" class="name"></h1>
 
-      <ul>
-        <li>
-          <a href="https://youtube.com/dsouloficial">
-            <img src="images/youtube.svg" alt="ícone youtube" target="_blank" />
+      <a
+        id="userLink"
+        class="github-link"
+        href="mailto:dsouloficial@outlook.com"
+        target="_blank"
+      />
+        <span id="userLogin">Entre em contato</span>
+        <i class="fa-solid fa-paper-plane"></i>
+      </a>
+
+      <p id="userBio" class="bio">An instructor focused on helping
+         pople start programming for web
+      </p>
+    
+      <ul id="socialLinks" class="menu">
+        <li class="github">
+          <a href="https://github.com/dsouloficial" target="_blank">
+            <i class="fa-brands fa-github"></i>
           </a>
         </li>
-        <li>
-          <a href="https://facebook.com/DenilsonBernardo(denilson)">
-            <img src="images/facebook.svg" alt="ícone facebook" target="_blank" />
+        <li class="facebook">
+          <a href="https://.facebook.com/eudenilsonbernardo/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
           </a>
         </li>
-        <li>
-          <a href="https://instagram.com/dsoul_oficial">
-            <img src="images/instagram.svg" alt="ícone instagram" target="_blank" />
+        <li class="instagram">
+          <a href="https://instagram.com/dsoul_oficial" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
           </a>
         </li>
-        <li>
-          <a href="https://twitter.com/dsouloficial">
-            <img src="images/twitter.svg" alt="ícone twitter" target="_blank" />
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/denilson-bernardo/"target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </li>
       </ul>
     </div>
-  </main>
+  </main> 
+  <script src="https://kit.fontawesome.com/a5329c5e3c.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
-
 </html>

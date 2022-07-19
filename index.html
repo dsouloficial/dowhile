@@ -13,17 +13,20 @@
   />
 </head>
 <body>
-  <main>
+  <main class="main">
     <div class="container">
+
       <div class="avatar">
         <span class="avatar__circular">
           <img
             src="images/build.svg"
+            class="avatar__spinner"
             alt="Selo Rocketseat"
           >
         </span>
         <img
           src="https://github.com/dsouloficial.png"
+          class="avatar__profile"
           alt="Foto pessoal" 
           id="UserImage"
         />
@@ -33,11 +36,11 @@
 
       <a
         id="userLink"
-        class="github-link"
+        class="email"
         href="mailto:dsouloficial@outlook.com"
         target="_blank"
       />
-        <span id="userLogin">Entre em contato</span>
+        <span id="userLogin" class="email__text">Entre em contato</span>
         <i class="fa-solid fa-paper-plane"></i>
       </a>
 
@@ -45,30 +48,34 @@
          pople start programming for web
       </p>
     
-      <ul id="socialLinks" class="menu">
-        <li class="github">
-          <a href="https://github.com/dsouloficial" target="_blank">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li class="facebook">
-          <a href="https://.facebook.com/eudenilsonbernardo/" target="_blank">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="instagram">
-          <a href="https://instagram.com/dsoul_oficial" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-        <li class="linkedin">
-          <a href="https://www.linkedin.com/in/denilson-bernardo/"target="_blank">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-        </li>
-      </ul>
+      <nav class="nav">
+        <ul id="socialLinks" class="nav__menu">
+          <li class="github">
+            <a href="https://github.com/dsouloficial" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://.facebook.com/eudenilsonbernardo/" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/dsoul_oficial" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/in/denilson-bernardo/"target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
     </div>
-  </main> 
+  </main>
+
   <script src="https://kit.fontawesome.com/a5329c5e3c.js" crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </body>
